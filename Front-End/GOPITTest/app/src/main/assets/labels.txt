@@ -1,0 +1,3 @@
+0 Biological
+1 Battery
+2 Plastic
