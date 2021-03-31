@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GOPIT APP</string>
+    <string name="click_below_to_select_a_image">Click below to select a Image</string>
+    <string name="classify">Classify</string>
+    <string name="todo">TODO</string>
+    <string name="check">Check Your Image</string>
+</resources>
