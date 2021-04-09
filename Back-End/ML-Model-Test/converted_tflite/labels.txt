@@ -1,4 +1,0 @@
-0 Battery
-1 Brow Glass
-2 Biological
-3 Green Bottle

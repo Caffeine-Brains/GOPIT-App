@@ -1,4 +1,7 @@
-Battery
-Brow Glass
-Biological
-Green Glass
+0 Glass
+1 Organic
+2 Metal
+3 Plastic
+4 Recyclable
+5 Hazardous
+6 Solid
