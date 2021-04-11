@@ -7,7 +7,6 @@ import android.app.Activity;
 import android.content.Intent;
 import android.content.res.AssetFileDescriptor;
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
@@ -15,7 +14,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import org.tensorflow.lite.DataType;
 import org.tensorflow.lite.Interpreter;
@@ -27,7 +25,6 @@ import org.tensorflow.lite.support.image.ImageProcessor;
 import org.tensorflow.lite.support.image.TensorImage;
 import org.tensorflow.lite.support.image.ops.ResizeOp;
 import org.tensorflow.lite.support.image.ops.ResizeWithCropOrPadOp;
-import org.tensorflow.lite.support.image.ops.Rot90Op;
 import org.tensorflow.lite.support.label.TensorLabel;
 import org.tensorflow.lite.support.tensorbuffer.TensorBuffer;
 
@@ -58,6 +55,7 @@ public class MainActivity extends AppCompatActivity {
     Uri imageuri;
     Button buclassify;
     TextView classitext;
+    Button scanButton;
 
     //    camera access
     private static final int REQUEST_IMAGE_CAPTURE = 101;
@@ -69,6 +67,14 @@ public class MainActivity extends AppCompatActivity {
         imageView=(ImageView)findViewById(R.id.image);
         buclassify=(Button)findViewById(R.id.classify);
         classitext=(TextView)findViewById(R.id.classifytext);
+        scanButton=(Button)findViewById(R.id.scanButton);
+
+        scanButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, ScanActivity.class));
+            }
+        });
 
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -110,8 +116,9 @@ public class MainActivity extends AppCompatActivity {
                 tflite.run(inputImageBuffer.getBuffer(),outputProbabilityBuffer.getBuffer().rewind());
                 showresult();
             }
-        });
 
+
+        });
 
 
     }
@@ -133,7 +140,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private MappedByteBuffer loadmodelfile(Activity activity) throws IOException {
-        AssetFileDescriptor fileDescriptor=activity.getAssets().openFd("model.tflite");
+        AssetFileDescriptor fileDescriptor=activity.getAssets().openFd("newModel.tflite");
         FileInputStream inputStream=new FileInputStream(fileDescriptor.getFileDescriptor());
         FileChannel fileChannel=inputStream.getChannel();
         long startoffset = fileDescriptor.getStartOffset();
@@ -151,7 +158,7 @@ public class MainActivity extends AppCompatActivity {
     private void showresult(){
 
         try{
-            labels = FileUtil.loadLabels(this,"labels.txt");
+            labels = FileUtil.loadLabels(this,"newLabels.txt");
         }catch (Exception e){
             e.printStackTrace();
         }
@@ -195,6 +202,10 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+
+
+
+
 //    @Override
 //    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 //
@@ -205,5 +216,7 @@ public class MainActivity extends AppCompatActivity {
 //            imageView.setImageBitmap(imageBitmap);
 //        }
 //    }
+
+
 }
 

@@ -4,4 +4,8 @@
     <string name="classify">Classify</string>
     <string name="todo">TODO</string>
     <string name="check">Check Your Image</string>
+    <string name="logo">logo</string>
+    <string name="deny_permission">Required permissions denied. Exiting.</string>
+    <string name="take_a_picture">Take a picture</string>
+    <string name="scan">Scan</string>
 </resources>
