@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">GOPIT APP</string>
+    <string name="app_name">GOPIT</string>
     <string name="click_below_to_select_a_image">Click below to select a Image</string>
     <string name="classify">Classify</string>
     <string name="todo">TODO</string>
@@ -8,4 +8,5 @@
     <string name="deny_permission">Required permissions denied. Exiting.</string>
     <string name="take_a_picture">Take a picture</string>
     <string name="scan">Scan</string>
+    <string name="seleceted_image">Seleceted Image</string>
 </resources>
