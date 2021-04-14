@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginLeft="0"
     android:backgroundTint="#EEF1EE"
     tools:context=".result_window">
 
@@ -14,7 +13,8 @@
         android:layout_height="418dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="200dp"
-        tools:srcCompat="@tools:sample/avatars" />
+        tools:srcCompat="@tools:sample/avatars"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:id="@+id/resultText"
@@ -22,9 +22,8 @@
         android:layout_height="60dp"
 
         android:layout_centerHorizontal="true"
-        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
         android:layout_marginTop="80dp"
-        android:layout_y="226dp"
         android:background="@drawable/rounded_corner"
         android:text="@string/textview" />
 </RelativeLayout>

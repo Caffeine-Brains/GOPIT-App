@@ -8,9 +8,8 @@
     <string name="deny_permission">Required permissions denied. Exiting.</string>
     <string name="take_a_picture">Take a picture</string>
     <string name="scan">Scan</string>
-<<<<<<< HEAD
     <string name="textview">TextView</string>
-=======
     <string name="seleceted_image">Seleceted Image</string>
->>>>>>> 67f37bc7076856b81b8169e5858200725a128240
+    <string name="capture_image">capture image</string>
+    
 </resources>
