@@ -18,15 +18,20 @@
         android:theme="@style/AppTheme">
         <activity android:name=".result_window"/>
 
-        <activity android:name=".selectOptionActivity"/>
-        <activity android:name=".ScanActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".selectOptionActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
+        <activity android:name=".ScanActivity" />
+        <activity android:name=".MainActivity"/>
+
+
+
     </application>
 
 </manifest>

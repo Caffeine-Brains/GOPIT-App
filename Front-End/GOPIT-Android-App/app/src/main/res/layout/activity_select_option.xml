@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".selectOptionActivity">
+    tools:context=".selectOptionActivity"
+    android:background="@drawable/ic_method_draw_image__2_">
 
     <ImageView
         android:id="@+id/imageView"
@@ -12,7 +13,8 @@
         android:layout_height="300dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="100dp"
-        android:contentDescription="@string/seleceted_image"/>
+        android:contentDescription="@string/seleceted_image"
+        android:src="@color/colorAccent"/>
 
     <ImageButton
         android:id="@+id/cameraButton"
@@ -22,21 +24,44 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="false"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="502dp"
+        android:layout_marginTop="550dp"
+        android:background="@drawable/round_button"
         android:contentDescription="@string/capture_image"
         android:cropToPadding="false"
         android:padding="20dp"
         android:scaleType="fitCenter"
         android:src="@drawable/camera_icon" />
 
-    <Button
+    <ImageButton
         android:id="@+id/uploadButton"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_alignParentStart="true"
+        android:layout_alignParentStart="false"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="258dp"
-        android:layout_marginTop="500dp"
-        android:layout_marginEnd="50dp" />
+        android:layout_marginTop="550dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/round_button"
+        android:contentDescription="@string/upload_image"
+        android:padding="15dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/gallery_icon" />
+
+    <Button
+        android:id="@+id/checkButton"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="675dp"
+        android:text="@string/check_it"
+        android:background="@drawable/rounded_corner"/>
+
+    <TextView
+        android:id="@+id/testTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Your Result Here"
+        android:textSize="20sp" />
 </RelativeLayout>

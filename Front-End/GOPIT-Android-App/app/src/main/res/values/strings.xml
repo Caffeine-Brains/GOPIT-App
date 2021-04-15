@@ -11,5 +11,7 @@
     <string name="textview">TextView</string>
     <string name="seleceted_image">Seleceted Image</string>
     <string name="capture_image">capture image</string>
-    
+    <string name="upload_image">upload image</string>
+    <string name="check_it">Check It</string>
+
 </resources>
