@@ -16,11 +16,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-<<<<<<< HEAD
-        <activity android:name=".result_window"></activity>
-=======
-        <activity android:name=".selectOptionActivity"></activity>
->>>>>>> 67f37bc7076856b81b8169e5858200725a128240
+        <activity android:name=".result_window"/>
+
+        <activity android:name=".selectOptionActivity"/>
         <activity android:name=".ScanActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
