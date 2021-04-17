@@ -56,7 +56,6 @@ public class selectOptionActivity extends AppCompatActivity {
     Uri imageuri;
     ImageButton cameraButton;
     ImageButton uploadButton;
-    TextView testText;
     Button checkButton;
 
     //    camera access
@@ -71,7 +70,9 @@ public class selectOptionActivity extends AppCompatActivity {
         cameraButton = (ImageButton)findViewById(R.id.cameraButton);
         uploadButton = (ImageButton)findViewById(R.id.uploadButton);
         checkButton = (Button)findViewById(R.id.checkButton);
-        testText = (TextView)findViewById(R.id.testTextView);
+
+
+        checkButton.setEnabled(false);
 
         cameraButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -121,7 +122,11 @@ public class selectOptionActivity extends AppCompatActivity {
                 inputImageBuffer = loadImage(bitmap);
 
                 tflite.run(inputImageBuffer.getBuffer(),outputProbabilityBuffer.getBuffer().rewind());
-                showresult();
+                String result = showresult();
+
+                Intent resultIntent = new Intent(selectOptionActivity.this , result_window.class);
+                resultIntent.putExtra("resultText",result);
+                selectOptionActivity.this.startActivity(resultIntent);
             }
         });
 
@@ -167,6 +172,7 @@ public class selectOptionActivity extends AppCompatActivity {
             try {
                 bitmap = MediaStore.Images.Media.getBitmap(getContentResolver(), imageuri);
                 imageView.setImageBitmap(bitmap);
+                checkButton.setEnabled(true);
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -174,10 +180,11 @@ public class selectOptionActivity extends AppCompatActivity {
             Bundle extras = data.getExtras();
             bitmap = (Bitmap) extras.get("data");
             imageView.setImageBitmap(bitmap);
+            checkButton.setEnabled(true);
         }
     }
 
-    private void showresult(){
+    private String showresult(){
 
         try{
             labels = FileUtil.loadLabels(this,"newLabels.txt");
@@ -191,8 +198,10 @@ public class selectOptionActivity extends AppCompatActivity {
 
         for (Map.Entry<String, Float> entry : labeledProbability.entrySet()) {
             if (entry.getValue()==maxValueInMap) {
-                testText.setText(entry.getKey());
+                return entry.getKey();
             }
         }
+
+        return null;
     }
 }
