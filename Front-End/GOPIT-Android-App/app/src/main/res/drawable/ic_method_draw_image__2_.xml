@@ -4,10 +4,13 @@
     android:viewportWidth="800"
     android:width="800dp"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:aapt="http://schemas.android.com/aapt">
+    xmlns:aapt="http://schemas.android.com/aapt"
+    >
     <path
         android:pathData="M-215.535,-14.116a615.535,615.535 0,1 0,1231.071 0a615.535,615.535 0,1 0,-1231.071 0z"
-        android:strokeColor="#000" android:strokeWidth="1">
+        android:strokeColor="#000" android:strokeWidth="1"
+
+        >
         <aapt:attr name="android:fillColor">
             <gradient
                 android:endX="1000"
