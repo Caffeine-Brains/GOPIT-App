@@ -19,10 +19,6 @@
         <activity android:name=".result_window"/>
 
         <activity android:name=".selectOptionActivity"/>
-
-
-
-
         <activity android:name=".ScanActivity" />
         <activity android:name=".MainActivity"/>
         <activity android:name=".SplashActivity">
