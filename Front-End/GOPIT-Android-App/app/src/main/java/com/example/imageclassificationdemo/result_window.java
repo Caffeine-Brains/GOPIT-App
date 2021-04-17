@@ -3,16 +3,18 @@ package com.example.imageclassificationdemo;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.graphics.Color;
-import android.graphics.LinearGradient;
-import android.graphics.Shader;
 import android.os.Bundle;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 public class result_window extends AppCompatActivity {
+
+    //Initialize variables
     TextView resultText;
     ImageView imageView;
+    Animation animation;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +30,7 @@ public class result_window extends AppCompatActivity {
 
         resultText.setText(result);
         loadRelatedBin(result);
+        rotateBin();
 
     }
 
@@ -46,5 +49,11 @@ public class result_window extends AppCompatActivity {
         }else if(result.equalsIgnoreCase("recyclable")) {
             imageView.setImageResource(R.drawable.recycle);
         }
+    }
+
+    //Adding rotate option to the bin
+    public void rotateBin(){
+        animation= AnimationUtils.loadAnimation(this,R.anim.rotate_bin);
+        imageView.startAnimation(animation);
     }
 }
