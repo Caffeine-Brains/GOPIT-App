@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/ic_method_draw_image__2_"
-    tools:context=".selectOptionActivity"
-    android:preserveAspectRatio="xMaxYMax slice">
+    tools:context=".selectOptionActivity">
 
     <ImageView
         android:id="@+id/imageView"
