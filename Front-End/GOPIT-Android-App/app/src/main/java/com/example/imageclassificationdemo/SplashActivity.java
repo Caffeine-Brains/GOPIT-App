@@ -30,7 +30,7 @@ public class SplashActivity extends AppCompatActivity {
             //call select option window
             @Override
             public void run() {
-                Intent intent = new Intent(getApplicationContext(),selectOptionActivity.class);
+                Intent intent = new Intent(getApplicationContext(),MainActivity.class);
                 startActivity(intent);
                 finish();
 
