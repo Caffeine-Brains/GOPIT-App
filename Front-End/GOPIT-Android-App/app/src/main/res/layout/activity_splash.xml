@@ -38,7 +38,7 @@
         android:fontFamily="sans-serif-black"
         android:gravity="center"
         android:text="@string/from"
-        android:textColor="#003300"
+        android:textColor="#000000"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/textView"
