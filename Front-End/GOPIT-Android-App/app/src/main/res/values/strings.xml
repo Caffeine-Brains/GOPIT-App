@@ -13,5 +13,7 @@
     <string name="capture_image">capture image</string>
     <string name="upload_image">upload image</string>
     <string name="check_it">Check It</string>
+    <string name="caffaine_brains">CAFFAINE-BRAINS</string>
+    <string name="from">From</string>
 
 </resources>
