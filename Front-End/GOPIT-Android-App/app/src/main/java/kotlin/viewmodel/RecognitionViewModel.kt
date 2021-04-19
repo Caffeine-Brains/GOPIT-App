@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package kotlin.viewmodel
+package org.tensorflow.lite.examples.classification.viewmodel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

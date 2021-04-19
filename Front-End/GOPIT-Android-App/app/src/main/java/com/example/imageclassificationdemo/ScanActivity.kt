@@ -21,8 +21,8 @@ import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.RecyclerView
 import com.example.imageclassificationdemo.ml.GCModel
 import org.tensorflow.lite.examples.classification.util.YuvToRgbConverter
-import kotlin.viewmodel.Recognition
-import kotlin.viewmodel.RecognitionListViewModel
+import org.tensorflow.lite.examples.classification.viewmodel.Recognition
+import org.tensorflow.lite.examples.classification.viewmodel.RecognitionListViewModel
 import org.tensorflow.lite.support.image.TensorImage
 import java.util.concurrent.Executors
 
@@ -175,6 +175,15 @@ class ScanActivity : AppCompatActivity() {
                 items.add(Recognition(output.label , output.score ))
 
             }
+
+
+
+
+
+
+
+
+
             listener(items.toList())
             imageProxy.close()
 
