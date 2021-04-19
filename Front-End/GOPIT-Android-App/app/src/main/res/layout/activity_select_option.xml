@@ -48,40 +48,40 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginStart="50dp"
-            android:layout_marginTop="525dp"
+            android:layout_marginBottom="150dp"
             android:background="@drawable/round_button"
             android:contentDescription="@string/capture_image"
             android:cropToPadding="false"
             android:padding="20dp"
             android:scaleType="fitCenter"
-            android:src="@drawable/camera_icon_2"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            android:src="@drawable/camera_button_icon"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
 
         <ImageButton
             android:id="@+id/uploadButton"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:layout_marginTop="525dp"
             android:layout_marginEnd="50dp"
+            android:layout_marginBottom="150dp"
             android:background="@drawable/round_button"
             android:contentDescription="@string/upload_image"
             android:padding="15dp"
             android:scaleType="fitCenter"
-            android:src="@drawable/gallery_icon"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            android:src="@drawable/gallery_button_icon"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
 
         <Button
             android:id="@+id/checkButton"
             android:layout_width="200dp"
             android:layout_height="50dp"
-            android:layout_marginBottom="40dp"
+            android:layout_marginBottom="80dp"
             android:background="@drawable/rounded_corner"
             android:text="@string/check_it"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"/>
+            app:layout_constraintStart_toStartOf="parent" />
 
         <com.etebarian.meowbottomnavigation.MeowBottomNavigation
             android:id="@+id/bottomNavigation"
