@@ -21,7 +21,6 @@
         <activity android:name=".result_window" />
         <activity android:name=".selectOptionActivity" />
         <activity android:name=".ScanActivity" />
-        <activity android:name=".MainActivityExtra" />
         <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
