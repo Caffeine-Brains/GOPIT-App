@@ -23,6 +23,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.etebarian.meowbottomnavigation.MeowBottomNavigation;
 import com.google.android.material.navigation.NavigationView;
 
 import org.tensorflow.lite.DataType;
@@ -67,6 +68,12 @@ public class selectOptionActivity extends AppCompatActivity implements Navigatio
     ImageButton uploadButton;
     Button checkButton;
 
+    //Bottom Navigation
+    private MeowBottomNavigation bottomNavigation;
+    private final int ID_HOME = 1;
+    private final int ID_REAL = 2;
+    private final int ID_HELP = 3;
+
     //    camera access
     private static final int REQUEST_IMAGE_CAPTURE = 101;
 
@@ -101,6 +108,13 @@ public class selectOptionActivity extends AppCompatActivity implements Navigatio
         toggle.syncState();
         navigationView.setNavigationItemSelectedListener(this);
         navigationView.setCheckedItem(R.id.nav_home);
+
+        //Bottom Navigation
+        bottomNavigation = findViewById(R.id.bottomNavigation);
+
+        bottomNavigation.add(new MeowBottomNavigation.Model(ID_HOME,R.drawable.ic_baseline_home_24));
+        bottomNavigation.add(new MeowBottomNavigation.Model(ID_REAL,R.drawable.ic_baseline_check_circle_outline_24));
+        bottomNavigation.add(new MeowBottomNavigation.Model(ID_HELP,R.drawable.ic_baseline_help_outline_24));
 
 
         cameraButton.setOnClickListener(new View.OnClickListener() {
@@ -158,6 +172,40 @@ public class selectOptionActivity extends AppCompatActivity implements Navigatio
                 selectOptionActivity.this.startActivity(resultIntent);
             }
         });
+
+        //Bottom Navigation Activities
+        bottomNavigation.setOnClickMenuListener(new MeowBottomNavigation.ClickListener() {
+            @Override
+            public void onClickItem(MeowBottomNavigation.Model item) {
+
+            }
+        });
+
+        bottomNavigation.setOnReselectListener(new MeowBottomNavigation.ReselectListener() {
+            @Override
+            public void onReselectItem(MeowBottomNavigation.Model item) {
+
+            }
+        });
+
+        //Bottom Navigation
+        bottomNavigation.setOnShowListener(new MeowBottomNavigation.ShowListener() {
+            @Override
+            public void onShowItem(MeowBottomNavigation.Model item) {
+                switch (item.getId()) {
+                    case ID_HOME:
+                        break;
+                    case ID_REAL:
+                        startActivity(new Intent(selectOptionActivity.this, ScanActivity.class));
+                        break;
+                    case ID_HELP:
+                        Intent intentHelp = new Intent(selectOptionActivity.this, Help.class);
+                        startActivity(intentHelp);
+                        break;
+                }
+            }
+        });
+        bottomNavigation.show(ID_HOME,true);
 
     }
 
