@@ -11,4 +11,6 @@
     <color name="green3">#0AD488</color>
     <color name="green4">#3BFEB8</color>
     <color name="green5">#13EBA2</color>
+    <color name="headerBackgroundColour">#bbfcdc</color>
+    <color name="headerTextColour">#000000</color>
 </resources>
