@@ -57,6 +57,24 @@
             android:src="@drawable/camera_button_icon"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
+<<<<<<< Updated upstream
+=======
+
+
+        <ImageButton
+            android:id="@+id/uploadButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="150dp"
+            android:background="@drawable/round_button"
+            android:contentDescription="@string/upload_image"
+            android:padding="15dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/gallery_button_icon"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+>>>>>>> Stashed changes
 
         <ImageButton
             android:id="@+id/uploadButton"
