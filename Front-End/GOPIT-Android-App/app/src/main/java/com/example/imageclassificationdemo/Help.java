@@ -24,7 +24,7 @@ public class Help extends AppCompatActivity {
         bottomNavigation = findViewById(R.id.bottomNavigation);
 
         bottomNavigation.add(new MeowBottomNavigation.Model(ID_HOME,R.drawable.ic_baseline_home_24));
-        bottomNavigation.add(new MeowBottomNavigation.Model(ID_REAL,R.drawable.ic_baseline_check_circle_outline_24));
+        bottomNavigation.add(new MeowBottomNavigation.Model(ID_REAL,R.drawable.ic_baseline_camera_alt_24));
         bottomNavigation.add(new MeowBottomNavigation.Model(ID_HELP,R.drawable.ic_baseline_help_outline_24));
 
         //Bottom Navigation Activities
