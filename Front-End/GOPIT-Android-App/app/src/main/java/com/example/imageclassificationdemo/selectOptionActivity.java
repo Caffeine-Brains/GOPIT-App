@@ -112,9 +112,9 @@ public class selectOptionActivity extends AppCompatActivity implements Navigatio
         //Bottom Navigation
         bottomNavigation = findViewById(R.id.bottomNavigation);
 
-        bottomNavigation.add(new MeowBottomNavigation.Model(ID_HOME,R.drawable.ic_baseline_home_24));
-        bottomNavigation.add(new MeowBottomNavigation.Model(ID_REAL,R.drawable.ic_baseline_check_circle_outline_24));
-        bottomNavigation.add(new MeowBottomNavigation.Model(ID_HELP,R.drawable.ic_baseline_help_outline_24));
+        bottomNavigation.add(new MeowBottomNavigation.Model(ID_HOME,R.drawable.home_icon));
+        bottomNavigation.add(new MeowBottomNavigation.Model(ID_REAL,R.drawable.camera_icon_2));
+        bottomNavigation.add(new MeowBottomNavigation.Model(ID_HELP,R.drawable.help_icon));
 
 
         cameraButton.setOnClickListener(new View.OnClickListener() {
