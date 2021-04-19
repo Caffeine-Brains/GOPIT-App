@@ -14,7 +14,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
-import android.widget.TextView;
 
 import org.tensorflow.lite.DataType;
 import org.tensorflow.lite.Interpreter;
@@ -149,7 +148,7 @@ public class selectOptionActivity extends AppCompatActivity {
     }
 
     private MappedByteBuffer loadmodelfile(Activity activity) throws IOException {
-        AssetFileDescriptor fileDescriptor=activity.getAssets().openFd("newModel.tflite");
+        AssetFileDescriptor fileDescriptor=activity.getAssets().openFd("TMModel.tflite");
         FileInputStream inputStream=new FileInputStream(fileDescriptor.getFileDescriptor());
         FileChannel fileChannel=inputStream.getChannel();
         long startoffset = fileDescriptor.getStartOffset();
@@ -187,7 +186,7 @@ public class selectOptionActivity extends AppCompatActivity {
     private String showresult(){
 
         try{
-            labels = FileUtil.loadLabels(this,"newLabels.txt");
+            labels = FileUtil.loadLabels(this, "TMLabels.txt");
         }catch (Exception e){
             e.printStackTrace();
         }
