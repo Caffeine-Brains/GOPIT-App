@@ -1,0 +1,6 @@
+Glass
+Hazardous
+Metal
+Organic
+Plastic
+Recyclable

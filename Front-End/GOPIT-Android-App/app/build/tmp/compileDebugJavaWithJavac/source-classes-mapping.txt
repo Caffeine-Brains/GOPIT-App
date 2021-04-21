@@ -1,0 +1,60 @@
+com/example/imageclassificationdemo/result_window.java
+ com.example.imageclassificationdemo.result_window
+ com.example.imageclassificationdemo.result_window$1
+ com.example.imageclassificationdemo.result_window$2
+ com.example.imageclassificationdemo.result_window$3
+com/example/imageclassificationdemo/selectOptionActivity.java
+ com.example.imageclassificationdemo.selectOptionActivity
+ com.example.imageclassificationdemo.selectOptionActivity$1
+ com.example.imageclassificationdemo.selectOptionActivity$2
+ com.example.imageclassificationdemo.selectOptionActivity$3
+ com.example.imageclassificationdemo.selectOptionActivity$4
+ com.example.imageclassificationdemo.selectOptionActivity$5
+ com.example.imageclassificationdemo.selectOptionActivity$6
+com/example/imageclassificationdemo/BuildConfig.java
+ com.example.imageclassificationdemo.BuildConfig
+com/example/imageclassificationdemo/ml/TMmodel.java
+ com.example.imageclassificationdemo.ml.TMmodel
+ com.example.imageclassificationdemo.ml.TMmodel$1
+ com.example.imageclassificationdemo.ml.TMmodel$Outputs
+com/example/imageclassificationdemo/SplashActivity.java
+ com.example.imageclassificationdemo.SplashActivity
+ com.example.imageclassificationdemo.SplashActivity$1
+com/example/imageclassificationdemo/BR.java
+ com.example.imageclassificationdemo.BR
+androidx/databinding/DataBinderMapperImpl.java
+ androidx.databinding.DataBinderMapperImpl
+androidx/databinding/library/baseAdapters/BR.java
+ androidx.databinding.library.baseAdapters.BR
+com/example/imageclassificationdemo/AboutUs.java
+ com.example.imageclassificationdemo.AboutUs
+ com.example.imageclassificationdemo.AboutUs$1
+ com.example.imageclassificationdemo.AboutUs$2
+ com.example.imageclassificationdemo.AboutUs$3
+com/example/imageclassificationdemo/ml/NewModel.java
+ com.example.imageclassificationdemo.ml.NewModel
+ com.example.imageclassificationdemo.ml.NewModel$1
+ com.example.imageclassificationdemo.ml.NewModel$Outputs
+com/example/imageclassificationdemo/databinding/RecognitionItemBindingImpl.java
+ com.example.imageclassificationdemo.databinding.RecognitionItemBindingImpl
+com/example/imageclassificationdemo/databinding/RecognitionItemBinding.java
+ com.example.imageclassificationdemo.databinding.RecognitionItemBinding
+com/example/imageclassificationdemo/DataBindingTriggerClass.java
+ com.example.imageclassificationdemo.DataBindingTriggerClass
+com/example/imageclassificationdemo/ml/GCModel.java
+ com.example.imageclassificationdemo.ml.GCModel
+ com.example.imageclassificationdemo.ml.GCModel$1
+ com.example.imageclassificationdemo.ml.GCModel$Outputs
+androidx/databinding/DataBindingComponent.java
+ androidx.databinding.DataBindingComponent
+com/example/imageclassificationdemo/DataBinderMapperImpl.java
+ com.example.imageclassificationdemo.DataBinderMapperImpl
+ com.example.imageclassificationdemo.DataBinderMapperImpl$InnerBrLookup
+ com.example.imageclassificationdemo.DataBinderMapperImpl$InnerLayoutIdLookup
+com/example/imageclassificationdemo/Help.java
+ com.example.imageclassificationdemo.Help
+ com.example.imageclassificationdemo.Help$1
+ com.example.imageclassificationdemo.Help$2
+ com.example.imageclassificationdemo.Help$3
+kotlin/test.java
+ kotlin.test

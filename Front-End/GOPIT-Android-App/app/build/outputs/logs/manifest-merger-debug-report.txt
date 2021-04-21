@@ -1,0 +1,344 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml:2:1-37:12
+MERGED from [androidx.databinding:databinding-adapters:4.1.2] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\9d06c4fc223366f97859af22c7906519\databinding-adapters-4.1.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:databinding-runtime:4.1.2] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\b8219f226dd7fbfc8668a1163df86257\databinding-runtime-4.1.2\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\10a1fd9a43e78ddadba51799567f760e\material-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\ab75dfbbd723f28d9ab1c4d69d43602e\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
+MERGED from [com.etebarian:meow-bottom-navigation-java:1.2.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\b8e5ca5e0ef89a8890193d9c9e1c3c12\jetified-meow-bottom-navigation-java-1.2.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.camera:camera-view:1.0.0-alpha23] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\59033be3e1f8aa159563870bdb709680\jetified-camera-view-1.0.0-alpha23\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\4102c377b7a8a929cfb8c6bcf858d486\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\2b8373cd7b19a64622809f6c80c70a5d\jetified-lifecycle-livedata-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.2.2] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\b9be93d7c8e4fbdea1ee47107ca905e1\jetified-activity-ktx-1.2.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\dcdf991b72b1f5201851cef63b4db2bc\jetified-lifecycle-livedata-core-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.1.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\f0d50a6376428c271faa988316f36f6e\jetified-core-ktx-1.1.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\47424dce5a5c79ca519c8a900671f577\jetified-lifecycle-runtime-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\a65abb3e033b741559b39d79bf02334f\jetified-lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\aae1d80ab50f4d0d2d5463d736b85750\jetified-savedstate-ktx-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\860a20129af510425fda71a093c51644\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\a8960e4d506a7565cbf4c14a84f20ca3\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [org.tensorflow:tensorflow-lite-task-vision:0.1.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\77c2ccc4499d755c31e4686105594ac0\jetified-tensorflow-lite-task-vision-0.1.0\AndroidManifest.xml:2:1-9:12
+MERGED from [org.tensorflow:tensorflow-lite-task-text:0.1.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\7334e690e5540f865217e46a5b6521d3\jetified-tensorflow-lite-task-text-0.1.0\AndroidManifest.xml:2:1-9:12
+MERGED from [org.tensorflow:tensorflow-lite-support:0.1.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\8f67460d06474eca1eb926ca44c760a0\jetified-tensorflow-lite-support-0.1.0\AndroidManifest.xml:2:1-5:12
+MERGED from [org.tensorflow:tensorflow-lite:2.4.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\1f5283009bef87e8818924f05705a471\jetified-tensorflow-lite-2.4.0\AndroidManifest.xml:2:1-12:12
+MERGED from [org.tensorflow:tensorflow-lite-gpu:2.3.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\47b2b995f068996c90e7f933d68edd38\jetified-tensorflow-lite-gpu-2.3.0\AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.camera:camera-extensions:1.0.0-alpha23] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\734ac1f7c5ac69050a5a7132291c84b8\jetified-camera-extensions-1.0.0-alpha23\AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.camera:camera-camera2:1.1.0-alpha03] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\8b9224317a408d59cf7678d16d567379\jetified-camera-camera2-1.1.0-alpha03\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.camera:camera-lifecycle:1.1.0-alpha03] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\c82b3d25a71371348925eecad21d8177\jetified-camera-lifecycle-1.1.0-alpha03\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.camera:camera-core:1.1.0-alpha03] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\44d7a24316a2d065f0f4334197edaeea\jetified-camera-core-1.1.0-alpha03\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview-selection:1.1.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\ccb0130fb939dc0743b1f3a9ad015448\recyclerview-selection-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\d26c4581f2aa1b1cbe7b20229144eab6\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\42606ad1f19d8bf676e29144ce3f1713\recyclerview-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.19] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\1a441a6ed124abc524721ea93997ed55\jetified-android-gif-drawable-1.2.19\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.databinding:viewbinding:4.1.2] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\07202aab04a31327d881215b459a8efb\jetified-viewbinding-4.1.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\c1885a8736ec71b9a9070f3a9ebddec1\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\7768ef850c6e7f23afc64bde82056cbc\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\4a6fe54170eccaac90a616c2cf106285\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\ac39499e635cceb3bd74903dfba1889e\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\b325c06abe325b127435517ac74a9062\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\6fbde3eb0bd4b3be096c7e1fce5ac21f\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\976c00641c40d82db70ae37f64007c6f\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\ce5d1630d5b3df7ace9dd35aaabe9c5a\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\f4b54cfba9f25426c71fd95ff842a711\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\96e956f09c012297edcddd2775f65c0b\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\2a8076bdfc58cd2ace7c4c78c5754ac7\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\1ad2232e5d54277c9bfa76f1a93aaedb\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\f3b56dfd840f19b4ac6f59732d204035\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\7ad035d029c4623ddc5a8b316fada2b8\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.2.2] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\537fe01f01f215706a44cc21d33da9c1\jetified-activity-1.2.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\a305a17508992a93c311536fdc7bbfe2\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\6defdee793f74bf6f6fd4bad8c8ce79a\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\0d4952ea748e62aa46cf513af6fcc21c\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.2] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\f4726924add2327517ec5f23b6aa3aba\core-1.3.2\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\1d86e14e7e900dbbd39dadbfaa43aff9\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\c0c934729d9ce0ebf2355fa409e06cb9\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\89ea25a6bab4995dc9ce71176715055c\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\faef58221bb3ee975238e2de8ce96f51\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\2fbeb1fd0768b5deeca98dc2ef70b9f9\lifecycle-livedata-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\7dd7f0e46537eaad51c789f14e55977b\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\ce078f4e40d39f99aaf7cdd68203c3c2\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\9db0ec2213a228a5db2b1034656eefd5\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\01fa847b3ed041f7b1de343245fa7536\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\a6a9857846621e3de61bd5fe782b80a6\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\4b393030b2c2e1fa1433125869d155cc\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\593a6423820f52e07f5cf586ae902042\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\ac0dc5eb672c980c1ba29d749cdd98d8\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\3823e1783061d9558e56ab2608f2c5b5\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\bb1ad6c5da411d9b7fe71369969719f7\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\0aaff4fb6b8684e27d7e3963216ee549\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [org.tensorflow:tensorflow-lite-task-base:0.1.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\e5e4afd9a2e53e00594ef6c232cfb327\jetified-tensorflow-lite-task-base-0.1.0\AndroidManifest.xml:2:1-6:12
+MERGED from [pl.droidsonroids:relinker:1.3.1] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\1da721e9074b07e3de938d5ac109a4f6\jetified-relinker-1.3.1\AndroidManifest.xml:2:1-7:12
+INJECTED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml:2:1-37:12
+	package
+		ADDED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml:3:5-50
+		INJECTED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml:2:1-37:12
+		INJECTED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml:2:1-37:12
+		INJECTED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml:2:11-69
+uses-feature#android.hardware.Camera
+ADDED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml:5:5-7:35
+	android:required
+		ADDED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml:7:9-32
+	android:name
+		ADDED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml:6:9-47
+uses-feature#android.hardware.camera.any
+ADDED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml:8:5-64
+	android:name
+		ADDED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml:8:19-61
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml:10:5-65
+	android:name
+		ADDED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml:10:22-62
+application
+ADDED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml:12:5-35:19
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\10a1fd9a43e78ddadba51799567f760e\material-1.3.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\10a1fd9a43e78ddadba51799567f760e\material-1.3.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\ab75dfbbd723f28d9ab1c4d69d43602e\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\ab75dfbbd723f28d9ab1c4d69d43602e\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [org.tensorflow:tensorflow-lite:2.4.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\1f5283009bef87e8818924f05705a471\jetified-tensorflow-lite-2.4.0\AndroidManifest.xml:10:5-20
+MERGED from [org.tensorflow:tensorflow-lite:2.4.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\1f5283009bef87e8818924f05705a471\jetified-tensorflow-lite-2.4.0\AndroidManifest.xml:10:5-20
+MERGED from [org.tensorflow:tensorflow-lite-gpu:2.3.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\47b2b995f068996c90e7f933d68edd38\jetified-tensorflow-lite-gpu-2.3.0\AndroidManifest.xml:10:5-20
+MERGED from [org.tensorflow:tensorflow-lite-gpu:2.3.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\47b2b995f068996c90e7f933d68edd38\jetified-tensorflow-lite-gpu-2.3.0\AndroidManifest.xml:10:5-20
+MERGED from [androidx.camera:camera-extensions:1.0.0-alpha23] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\734ac1f7c5ac69050a5a7132291c84b8\jetified-camera-extensions-1.0.0-alpha23\AndroidManifest.xml:30:5-34:19
+MERGED from [androidx.camera:camera-extensions:1.0.0-alpha23] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\734ac1f7c5ac69050a5a7132291c84b8\jetified-camera-extensions-1.0.0-alpha23\AndroidManifest.xml:30:5-34:19
+MERGED from [androidx.core:core:1.3.2] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\f4726924add2327517ec5f23b6aa3aba\core-1.3.2\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.2] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\f4726924add2327517ec5f23b6aa3aba\core-1.3.2\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\c0c934729d9ce0ebf2355fa409e06cb9\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\c0c934729d9ce0ebf2355fa409e06cb9\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [org.tensorflow:tensorflow-lite-task-base:0.1.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\e5e4afd9a2e53e00594ef6c232cfb327\jetified-tensorflow-lite-task-base-0.1.0\AndroidManifest.xml:4:4-5:18
+MERGED from [org.tensorflow:tensorflow-lite-task-base:0.1.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\e5e4afd9a2e53e00594ef6c232cfb327\jetified-tensorflow-lite-task-base-0.1.0\AndroidManifest.xml:4:4-5:18
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.2] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\f4726924add2327517ec5f23b6aa3aba\core-1.3.2\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml:17:9-35
+	android:label
+		ADDED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml:15:9-41
+	android:roundIcon
+		ADDED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml:16:9-54
+	android:icon
+		ADDED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml:14:9-38
+	android:allowBackup
+		ADDED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml:13:9-35
+	android:theme
+		ADDED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml:18:9-40
+activity#com.example.imageclassificationdemo.Help
+ADDED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml:19:9-51
+	android:name
+		ADDED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml:19:19-39
+activity#com.example.imageclassificationdemo.AboutUs
+ADDED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml:20:9-45
+	android:name
+		ADDED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml:20:19-42
+activity#com.example.imageclassificationdemo.result_window
+ADDED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml:21:9-51
+	android:name
+		ADDED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml:21:19-48
+activity#com.example.imageclassificationdemo.selectOptionActivity
+ADDED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml:22:9-58
+	android:name
+		ADDED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml:22:19-55
+activity#com.example.imageclassificationdemo.ScanActivity
+ADDED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml:23:9-50
+	android:name
+		ADDED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml:23:19-47
+activity#com.example.imageclassificationdemo.SplashActivity
+ADDED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml:24:9-30:20
+	android:name
+		ADDED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml:24:19-49
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml:25:13-29:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml:28:27-74
+meta-data#preloaded_fonts
+ADDED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml:32:9-34:57
+	android:resource
+		ADDED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml:34:13-54
+	android:name
+		ADDED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml:33:13-43
+uses-sdk
+INJECTED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:databinding-adapters:4.1.2] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\9d06c4fc223366f97859af22c7906519\databinding-adapters-4.1.2\AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-adapters:4.1.2] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\9d06c4fc223366f97859af22c7906519\databinding-adapters-4.1.2\AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:4.1.2] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\b8219f226dd7fbfc8668a1163df86257\databinding-runtime-4.1.2\AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:4.1.2] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\b8219f226dd7fbfc8668a1163df86257\databinding-runtime-4.1.2\AndroidManifest.xml:22:5-44
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\10a1fd9a43e78ddadba51799567f760e\material-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\10a1fd9a43e78ddadba51799567f760e\material-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\ab75dfbbd723f28d9ab1c4d69d43602e\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\ab75dfbbd723f28d9ab1c4d69d43602e\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.etebarian:meow-bottom-navigation-java:1.2.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\b8e5ca5e0ef89a8890193d9c9e1c3c12\jetified-meow-bottom-navigation-java-1.2.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.etebarian:meow-bottom-navigation-java:1.2.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\b8e5ca5e0ef89a8890193d9c9e1c3c12\jetified-meow-bottom-navigation-java-1.2.0\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.camera:camera-view:1.0.0-alpha23] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\59033be3e1f8aa159563870bdb709680\jetified-camera-view-1.0.0-alpha23\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-view:1.0.0-alpha23] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\59033be3e1f8aa159563870bdb709680\jetified-camera-view-1.0.0-alpha23\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\4102c377b7a8a929cfb8c6bcf858d486\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\4102c377b7a8a929cfb8c6bcf858d486\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\2b8373cd7b19a64622809f6c80c70a5d\jetified-lifecycle-livedata-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\2b8373cd7b19a64622809f6c80c70a5d\jetified-lifecycle-livedata-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.2.2] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\b9be93d7c8e4fbdea1ee47107ca905e1\jetified-activity-ktx-1.2.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.2.2] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\b9be93d7c8e4fbdea1ee47107ca905e1\jetified-activity-ktx-1.2.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\dcdf991b72b1f5201851cef63b4db2bc\jetified-lifecycle-livedata-core-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\dcdf991b72b1f5201851cef63b4db2bc\jetified-lifecycle-livedata-core-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.1.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\f0d50a6376428c271faa988316f36f6e\jetified-core-ktx-1.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.1.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\f0d50a6376428c271faa988316f36f6e\jetified-core-ktx-1.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\47424dce5a5c79ca519c8a900671f577\jetified-lifecycle-runtime-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\47424dce5a5c79ca519c8a900671f577\jetified-lifecycle-runtime-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\a65abb3e033b741559b39d79bf02334f\jetified-lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\a65abb3e033b741559b39d79bf02334f\jetified-lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\aae1d80ab50f4d0d2d5463d736b85750\jetified-savedstate-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\aae1d80ab50f4d0d2d5463d736b85750\jetified-savedstate-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\860a20129af510425fda71a093c51644\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\860a20129af510425fda71a093c51644\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\a8960e4d506a7565cbf4c14a84f20ca3\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\a8960e4d506a7565cbf4c14a84f20ca3\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [org.tensorflow:tensorflow-lite-task-vision:0.1.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\77c2ccc4499d755c31e4686105594ac0\jetified-tensorflow-lite-task-vision-0.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [org.tensorflow:tensorflow-lite-task-vision:0.1.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\77c2ccc4499d755c31e4686105594ac0\jetified-tensorflow-lite-task-vision-0.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [org.tensorflow:tensorflow-lite-task-text:0.1.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\7334e690e5540f865217e46a5b6521d3\jetified-tensorflow-lite-task-text-0.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [org.tensorflow:tensorflow-lite-task-text:0.1.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\7334e690e5540f865217e46a5b6521d3\jetified-tensorflow-lite-task-text-0.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [org.tensorflow:tensorflow-lite-support:0.1.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\8f67460d06474eca1eb926ca44c760a0\jetified-tensorflow-lite-support-0.1.0\AndroidManifest.xml:4:3-71
+MERGED from [org.tensorflow:tensorflow-lite-support:0.1.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\8f67460d06474eca1eb926ca44c760a0\jetified-tensorflow-lite-support-0.1.0\AndroidManifest.xml:4:3-71
+MERGED from [org.tensorflow:tensorflow-lite:2.4.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\1f5283009bef87e8818924f05705a471\jetified-tensorflow-lite-2.4.0\AndroidManifest.xml:7:5-8:41
+MERGED from [org.tensorflow:tensorflow-lite:2.4.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\1f5283009bef87e8818924f05705a471\jetified-tensorflow-lite-2.4.0\AndroidManifest.xml:7:5-8:41
+MERGED from [org.tensorflow:tensorflow-lite-gpu:2.3.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\47b2b995f068996c90e7f933d68edd38\jetified-tensorflow-lite-gpu-2.3.0\AndroidManifest.xml:7:5-8:41
+MERGED from [org.tensorflow:tensorflow-lite-gpu:2.3.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\47b2b995f068996c90e7f933d68edd38\jetified-tensorflow-lite-gpu-2.3.0\AndroidManifest.xml:7:5-8:41
+MERGED from [androidx.camera:camera-extensions:1.0.0-alpha23] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\734ac1f7c5ac69050a5a7132291c84b8\jetified-camera-extensions-1.0.0-alpha23\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-extensions:1.0.0-alpha23] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\734ac1f7c5ac69050a5a7132291c84b8\jetified-camera-extensions-1.0.0-alpha23\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-camera2:1.1.0-alpha03] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\8b9224317a408d59cf7678d16d567379\jetified-camera-camera2-1.1.0-alpha03\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-camera2:1.1.0-alpha03] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\8b9224317a408d59cf7678d16d567379\jetified-camera-camera2-1.1.0-alpha03\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-lifecycle:1.1.0-alpha03] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\c82b3d25a71371348925eecad21d8177\jetified-camera-lifecycle-1.1.0-alpha03\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-lifecycle:1.1.0-alpha03] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\c82b3d25a71371348925eecad21d8177\jetified-camera-lifecycle-1.1.0-alpha03\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-core:1.1.0-alpha03] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\44d7a24316a2d065f0f4334197edaeea\jetified-camera-core-1.1.0-alpha03\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-core:1.1.0-alpha03] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\44d7a24316a2d065f0f4334197edaeea\jetified-camera-core-1.1.0-alpha03\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview-selection:1.1.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\ccb0130fb939dc0743b1f3a9ad015448\recyclerview-selection-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview-selection:1.1.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\ccb0130fb939dc0743b1f3a9ad015448\recyclerview-selection-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\d26c4581f2aa1b1cbe7b20229144eab6\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\d26c4581f2aa1b1cbe7b20229144eab6\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\42606ad1f19d8bf676e29144ce3f1713\recyclerview-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\42606ad1f19d8bf676e29144ce3f1713\recyclerview-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.19] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\1a441a6ed124abc524721ea93997ed55\jetified-android-gif-drawable-1.2.19\AndroidManifest.xml:5:5-7:41
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.19] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\1a441a6ed124abc524721ea93997ed55\jetified-android-gif-drawable-1.2.19\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.databinding:viewbinding:4.1.2] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\07202aab04a31327d881215b459a8efb\jetified-viewbinding-4.1.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:4.1.2] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\07202aab04a31327d881215b459a8efb\jetified-viewbinding-4.1.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\c1885a8736ec71b9a9070f3a9ebddec1\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\c1885a8736ec71b9a9070f3a9ebddec1\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\7768ef850c6e7f23afc64bde82056cbc\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\7768ef850c6e7f23afc64bde82056cbc\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\4a6fe54170eccaac90a616c2cf106285\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\4a6fe54170eccaac90a616c2cf106285\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\ac39499e635cceb3bd74903dfba1889e\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\ac39499e635cceb3bd74903dfba1889e\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\b325c06abe325b127435517ac74a9062\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\b325c06abe325b127435517ac74a9062\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\6fbde3eb0bd4b3be096c7e1fce5ac21f\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\6fbde3eb0bd4b3be096c7e1fce5ac21f\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\976c00641c40d82db70ae37f64007c6f\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\976c00641c40d82db70ae37f64007c6f\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\ce5d1630d5b3df7ace9dd35aaabe9c5a\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\ce5d1630d5b3df7ace9dd35aaabe9c5a\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\f4b54cfba9f25426c71fd95ff842a711\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\f4b54cfba9f25426c71fd95ff842a711\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\96e956f09c012297edcddd2775f65c0b\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\96e956f09c012297edcddd2775f65c0b\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\2a8076bdfc58cd2ace7c4c78c5754ac7\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\2a8076bdfc58cd2ace7c4c78c5754ac7\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\1ad2232e5d54277c9bfa76f1a93aaedb\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\1ad2232e5d54277c9bfa76f1a93aaedb\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\f3b56dfd840f19b4ac6f59732d204035\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\f3b56dfd840f19b4ac6f59732d204035\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\7ad035d029c4623ddc5a8b316fada2b8\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\7ad035d029c4623ddc5a8b316fada2b8\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.2.2] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\537fe01f01f215706a44cc21d33da9c1\jetified-activity-1.2.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.2] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\537fe01f01f215706a44cc21d33da9c1\jetified-activity-1.2.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\a305a17508992a93c311536fdc7bbfe2\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\a305a17508992a93c311536fdc7bbfe2\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\6defdee793f74bf6f6fd4bad8c8ce79a\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\6defdee793f74bf6f6fd4bad8c8ce79a\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\0d4952ea748e62aa46cf513af6fcc21c\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\0d4952ea748e62aa46cf513af6fcc21c\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.2] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\f4726924add2327517ec5f23b6aa3aba\core-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.2] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\f4726924add2327517ec5f23b6aa3aba\core-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\1d86e14e7e900dbbd39dadbfaa43aff9\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\1d86e14e7e900dbbd39dadbfaa43aff9\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\c0c934729d9ce0ebf2355fa409e06cb9\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\c0c934729d9ce0ebf2355fa409e06cb9\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\89ea25a6bab4995dc9ce71176715055c\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\89ea25a6bab4995dc9ce71176715055c\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\faef58221bb3ee975238e2de8ce96f51\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\faef58221bb3ee975238e2de8ce96f51\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\2fbeb1fd0768b5deeca98dc2ef70b9f9\lifecycle-livedata-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\2fbeb1fd0768b5deeca98dc2ef70b9f9\lifecycle-livedata-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\7dd7f0e46537eaad51c789f14e55977b\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\7dd7f0e46537eaad51c789f14e55977b\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\ce078f4e40d39f99aaf7cdd68203c3c2\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\ce078f4e40d39f99aaf7cdd68203c3c2\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\9db0ec2213a228a5db2b1034656eefd5\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\9db0ec2213a228a5db2b1034656eefd5\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\01fa847b3ed041f7b1de343245fa7536\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\01fa847b3ed041f7b1de343245fa7536\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\a6a9857846621e3de61bd5fe782b80a6\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\a6a9857846621e3de61bd5fe782b80a6\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\4b393030b2c2e1fa1433125869d155cc\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\4b393030b2c2e1fa1433125869d155cc\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\593a6423820f52e07f5cf586ae902042\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\593a6423820f52e07f5cf586ae902042\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\ac0dc5eb672c980c1ba29d749cdd98d8\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\ac0dc5eb672c980c1ba29d749cdd98d8\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\3823e1783061d9558e56ab2608f2c5b5\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\3823e1783061d9558e56ab2608f2c5b5\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\bb1ad6c5da411d9b7fe71369969719f7\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\bb1ad6c5da411d9b7fe71369969719f7\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\0aaff4fb6b8684e27d7e3963216ee549\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\0aaff4fb6b8684e27d7e3963216ee549\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [pl.droidsonroids:relinker:1.3.1] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\1da721e9074b07e3de938d5ac109a4f6\jetified-relinker-1.3.1\AndroidManifest.xml:5:5-43
+MERGED from [pl.droidsonroids:relinker:1.3.1] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\1da721e9074b07e3de938d5ac109a4f6\jetified-relinker-1.3.1\AndroidManifest.xml:5:5-43
+INJECTED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml
+		MERGED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml
+		MERGED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml
+queries
+ADDED from [androidx.camera:camera-extensions:1.0.0-alpha23] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\734ac1f7c5ac69050a5a7132291c84b8\jetified-camera-extensions-1.0.0-alpha23\AndroidManifest.xml:24:5-28:15
+intent#action:name:androidx.camera.extensions.action.VENDOR_ACTION
+ADDED from [androidx.camera:camera-extensions:1.0.0-alpha23] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\734ac1f7c5ac69050a5a7132291c84b8\jetified-camera-extensions-1.0.0-alpha23\AndroidManifest.xml:25:9-27:18
+action#androidx.camera.extensions.action.VENDOR_ACTION
+ADDED from [androidx.camera:camera-extensions:1.0.0-alpha23] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\734ac1f7c5ac69050a5a7132291c84b8\jetified-camera-extensions-1.0.0-alpha23\AndroidManifest.xml:26:13-86
+	android:name
+		ADDED from [androidx.camera:camera-extensions:1.0.0-alpha23] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\734ac1f7c5ac69050a5a7132291c84b8\jetified-camera-extensions-1.0.0-alpha23\AndroidManifest.xml:26:21-83
+uses-library#androidx.camera.extensions.impl
+ADDED from [androidx.camera:camera-extensions:1.0.0-alpha23] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\734ac1f7c5ac69050a5a7132291c84b8\jetified-camera-extensions-1.0.0-alpha23\AndroidManifest.xml:31:9-33:40
+	android:required
+		ADDED from [androidx.camera:camera-extensions:1.0.0-alpha23] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\734ac1f7c5ac69050a5a7132291c84b8\jetified-camera-extensions-1.0.0-alpha23\AndroidManifest.xml:33:13-37
+	android:name
+		ADDED from [androidx.camera:camera-extensions:1.0.0-alpha23] C:\Users\rusiru\.gradle\caches\transforms-2\files-2.1\734ac1f7c5ac69050a5a7132291c84b8\jetified-camera-extensions-1.0.0-alpha23\AndroidManifest.xml:32:13-59
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml:2:1-37:12 reason: src.java.org.tensorflow.lite.task.core has a targetSdkVersion < 4
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml:2:1-37:12 reason: src.java.org.tensorflow.lite.task.core has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from C:\Users\rusiru\Documents\GitHub\Timey-App\Front-End\GOPIT-Android-App\app\src\main\AndroidManifest.xml:2:1-37:12 reason: src.java.org.tensorflow.lite.task.core requested WRITE_EXTERNAL_STORAGE
