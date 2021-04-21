@@ -82,6 +82,11 @@ public class result_window extends AppCompatActivity {
 
     }
 
+    @Override
+    public void onBackPressed() {
+        startActivity(new Intent(result_window.this,selectOptionActivity.class));
+    }
+
     //Change bin image according to the displaying result
     private void loadRelatedBin(String result){
         if(result.equalsIgnoreCase("glass")){
