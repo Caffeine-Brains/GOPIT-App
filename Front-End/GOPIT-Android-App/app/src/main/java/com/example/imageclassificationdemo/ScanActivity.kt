@@ -3,6 +3,7 @@ package com.example.imageclassificationdemo
 import android.Manifest
 import android.annotation.SuppressLint
 import android.content.Context
+import android.content.Intent
 import android.content.pm.PackageManager
 import android.graphics.Bitmap
 import android.graphics.Matrix
@@ -71,6 +72,11 @@ class ScanActivity : AppCompatActivity() {
         )
     }
 
+    override fun onBackPressed() {
+        val intent = Intent(this,selectOptionActivity::class.java)
+        startActivity(intent)
+    }
+
     private fun allPermissionsGranted(): Boolean = REQUIRED_PERMISSIONS.all {
         ContextCompat.checkSelfPermission(
                 baseContext, it
@@ -112,13 +118,7 @@ class ScanActivity : AppCompatActivity() {
                     .build()
 
             imageAnalyzer = ImageAnalysis.Builder()
-                    // This sets the ideal size for the image to be analyse, CameraX will choose the
-                    // the most suitable resolution which may not be exactly the same or hold the same
-                    // aspect ratio
                     .setTargetResolution(Size(224, 224))
-                    // How the Image Analyser should pipe in input, 1. every frame but drop no frame, or
-                    // 2. go to the latest frame and may drop some frame. The default is 2.
-                    // STRATEGY_KEEP_ONLY_LATEST. The following line is optional, kept here for clarity
                     .setBackpressureStrategy(ImageAnalysis.STRATEGY_KEEP_ONLY_LATEST)
                     .build()
                     .also { analysisUseCase: ImageAnalysis ->
@@ -175,14 +175,6 @@ class ScanActivity : AppCompatActivity() {
                 items.add(Recognition(output.label , output.score ))
 
             }
-
-
-
-
-
-
-
-
 
             listener(items.toList())
             imageProxy.close()

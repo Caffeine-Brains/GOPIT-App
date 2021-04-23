@@ -1,7 +1,6 @@
 Glass
-Organic
+Hazardous
 Metal
+Organic
 Plastic
 Recyclable
-Hazardous
-Solid

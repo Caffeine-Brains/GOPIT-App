@@ -20,7 +20,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.etebarian.meowbottomnavigation.MeowBottomNavigation;
@@ -50,7 +49,6 @@ import java.util.Map;
 public class selectOptionActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
     protected Interpreter tflite;
-    private MappedByteBuffer tfliteModel;
     private TensorImage inputImageBuffer;
     private  int imageSizeX;
     private  int imageSizeY;
@@ -215,7 +213,7 @@ public class selectOptionActivity extends AppCompatActivity implements Navigatio
 
         // Creates processor for the TensorImage.
         int cropSize = Math.min(bitmap.getWidth(), bitmap.getHeight());
-        // TODO(b/143564309): Fuse ops inside ImageProcessor.
+
         ImageProcessor imageProcessor =
                 new ImageProcessor.Builder()
                         .add(new ResizeWithCropOrPadOp(cropSize, cropSize))
@@ -264,7 +262,7 @@ public class selectOptionActivity extends AppCompatActivity implements Navigatio
     private String showresult(){
 
         try{
-            labels = FileUtil.loadLabels(this,"newLabels.txt");
+            labels = FileUtil.loadLabels(this, "TMLabels.txt");
         }catch (Exception e){
             e.printStackTrace();
         }
